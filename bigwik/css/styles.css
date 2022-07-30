@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+    font-family: 'Red Hat Text';
+    color: rgb(96, 96, 96);
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+}
+
+.topic{
+    padding: 10px;
+
+}
+
+.topic-image img{
+    width: 100%;
+}
+
+
+.topic-heading{
+    font-family: 'Red Hat Display';
+    color: #e04a3f;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.topic-text{
+    margin-bottom: 5px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+.home-link{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(0, 154, 225);
+}
+
+.home-link-heading{
+    text-decoration: none;
+    cursor: pointer;
+    color: #e04a3f;
+    transition: color 0.25s;
+}
+
+.home-link-heading:hover{
+    color: rgb(0, 154, 225);
+}
+
+.website-building-step1, .website-building-step2, .website-building-step3, 
+.website-building-step4, .website-building-step5
+{
+    background-color: #dedada;
+    height: 120px;
+    padding: 10px 15px 0px 15px;
+    margin: 10px 0px 10px 20px;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.4);
+    text-align: justify;
+    border: none;
+    border-radius: 8px;
+}
+
+.website-building-step1 h3, .website-building-step2 h3, .website-building-step3 h3, 
+.website-building-step4 h3, .website-building-step5 h3
+{
+    font-size: 24px;
+}
+
+.website-building-step1 p, .website-building-step2 p, .website-building-step3 p, 
+.website-building-step4 p, .website-building-step5 p
+{
+    font-size: 16px;
+    margin: 4px 4px 4px 4px;
+}
+
+.image-2{
+    height: 600px;
+    object-fit: cover;
+    object-position: 50% 35%;
+}
+
+
+.topic-text-container h4{
+    padding: 4px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+ul, li{
+    margin-bottom: 5px;
+    text-align: justify;
+    line-height: 25px;
+    padding-left: 20px;
+}
